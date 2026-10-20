@@ -264,7 +264,7 @@ input[type=range]{accent-color:var(--coral);width:120px}
 .toast.show{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none !important;transition-duration:.01ms !important;scroll-behavior:auto !important}.card{opacity:1;transform:none}}
 </style>
-</head>
+<link rel="manifest" href="manifest.json"><link rel="icon" type="image/png" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"></head>
 <body>
 
 <header class="top">
@@ -958,5 +958,5 @@ $('#tSave').onclick = () => {
 /* ============ شروع: باز کردن درس از روی لینک ============ */
 if(byId[location.hash.slice(1)]) openLesson(location.hash.slice(1), false);
 </script>
-</body>
+<script>if('serviceWorker' in navigator){addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}</script></body>
 </html>

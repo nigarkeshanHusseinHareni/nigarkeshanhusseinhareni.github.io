@@ -1,0 +1,27 @@
+{
+ "name": "نیگار کێشان لە گەل حسین هەرنی",
+ "short_name": "نیگار کێشان",
+ "description": "آموزش قدم‌به‌قدم نقاشی با حسین هرنی",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#fffaf0",
+ "theme_color": "#ff7a59",
+ "lang": "fa",
+ "dir": "rtl",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
